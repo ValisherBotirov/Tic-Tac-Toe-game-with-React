@@ -1,6 +1,7 @@
 import React from "react";
 
 function MainComponent(props) {
+  console.log(props);
   const classes = props.className ? `${props.className} square` : `square`;
   return (
     <span
